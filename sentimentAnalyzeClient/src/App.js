@@ -49,7 +49,8 @@ class App extends React.Component {
         let output = data.label;
         let color = "white"
         switch(output) {
-          case "positive": color = "black";break;
+          case "positive": color = "green";break;
+          case "neutral": color = "yelow";break;
           case "negative": color = "black";break;
           default: color = "black";
         }
